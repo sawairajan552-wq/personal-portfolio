@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MyPortfolio</a>
+
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+
+            <div class="contact-heading">
+                <p class="intro">GET IN TOUCH</p>
+                <h1>Contact <span>Me</span></h1>
+                <p>
+                    Have a project idea or want to work together?
+                    Send me a message.
+                </p>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>
+                        I am always interested in learning,
+                        collaborating and discussing new projects.
+                    </p>
+
+                    <p><strong>Email:</strong> your-email@example.com</p>
+                    <p><strong>Location:</strong> Pakistan</p>
+                    <p><strong>Availability:</strong> Open to opportunities</p>
+                </div>
+
+                <form class="contact-form">
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name"
+                           placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email"
+                           placeholder="Enter your email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="Subject"
+                           placeholder="Enter message subject" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" rows="5"
+                              placeholder="Write your message here..."
+                              required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyPortfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
